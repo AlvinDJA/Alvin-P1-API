@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Alvin-P1-AP1.Entidades;
 
-namespace Alvin-P1-AP1.DAL
+namespace Alvin_P1_API.DAL
 {
     public class Contexto : DbContext
     {
