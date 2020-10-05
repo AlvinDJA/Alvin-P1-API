@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Alvin_P1_API"
         mc:Ignorable="d"
-        Title="MainWindow" Height="344" Width="578">
+        Title="Parcial AlvinDJA" Height="211" Width="382">
     <Grid >
         <StackPanel>
             <StackPanel Orientation = "Horizontal">
