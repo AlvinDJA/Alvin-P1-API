@@ -10,16 +10,13 @@
         <StackPanel>
             <StackPanel Orientation = "Horizontal">
                 <Menu Height="18">
-                    <MenuItem Header="Registros" Click="MenuItem_Click">
-                        <MenuItem x:Name="rPrestamo" Header="Registro de Prestamos" />
-                        <MenuItem x:Name="rPersona" Header="Registro de Personas" />
+                    <MenuItem Header="Registros"  >
+                        <MenuItem x:Name="rCiudades" Header="Registro de Ciudades" Click="rCiudades_Click"/>
                     </MenuItem>
                 </Menu>
 
                 <Menu Height="18">
                     <MenuItem Header="Consultas">
-                        <MenuItem x:Name="cPrestamo" Header="Consulta de Prestamos" />
-                        <MenuItem x:Name="cPersona" Header="Consulta de Personas" />
                     </MenuItem>
                 </Menu>
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Alvin_P1_API.UI.Registros"
         mc:Ignorable="d"
-        Title="Registro de Cuidades" Height="204" Width="423">
+        Title="Registro de Cuidades" Height="221" Width="423">
     <Grid>
         <StackPanel Margin="20,0,0,131">
             <Label Content="Ciduad id" Height="30" />
