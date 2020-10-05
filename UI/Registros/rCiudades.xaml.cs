@@ -21,5 +21,6 @@ namespace Alvin_P1_API.UI.Registros
         {
             InitializeComponent();
         }
+
     }
 }
