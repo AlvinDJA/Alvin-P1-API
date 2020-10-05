@@ -15,9 +15,9 @@ namespace Alvin_P1_API.UI.Registros
     /// <summary>
     /// Interaction logic for ciudades.xaml
     /// </summary>
-    public partial class ciudades : Window
+    public partial class rCiudades : Window
     {
-        public ciudades()
+        public rCiudades()
         {
             InitializeComponent();
         }

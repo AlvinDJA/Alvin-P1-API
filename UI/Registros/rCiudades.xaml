@@ -1,0 +1,57 @@
+﻿<Window x:Class="Alvin_P1_API.UI.Registros.rCiudades"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alvin_P1_API.UI.Registros"
+        mc:Ignorable="d"
+        Title="Registro de Cuidades" Height="204" Width="423">
+    <Grid>
+        <StackPanel Margin="20,0,0,131">
+            <Label Content="Ciduad id" Height="30" />
+            <StackPanel Height="19" Orientation="Horizontal" Width="397">
+                <TextBox HorizontalAlignment="Left" x:Name="idTextBox"  Width="120"/>
+                <Button x:Name="BuscarButton" FlowDirection="LeftToRight" >
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Imagenes/buscar.png" Height="10"/>
+                        <TextBlock>Buscar</TextBlock>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+
+        </StackPanel>
+        <StackPanel Margin="20,50,0,63">
+            <Label Content="Nombre" Height="30"/>
+            <TextBox HorizontalAlignment="Left" x:Name="nombreTextBox"  Width="120"/>
+        </StackPanel>
+        <StackPanel Margin="0,0,-165,-38">
+            <StackPanel Margin="20,80,230,138" Height="91" Width="370">
+                <StackPanel Orientation="Horizontal" Margin="0,40,0,0" Height="43">
+                    <Button x:Name="NuevoButton" FlowDirection="LeftToRight" Margin="10,0,0,0" Width="100"  >
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Imagenes/nuevo.png" Height="10"/>
+                            <TextBlock>Nuevo</TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="GuardarButton" FlowDirection="LeftToRight" Margin="10,0,0,0" Width="100" >
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Imagenes/guardar.jpg" Height="10"/>
+                            <TextBlock>Guardar</TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="EliminarButton" FlowDirection="LeftToRight" Margin="10,0,0,0" Width="100" >
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Imagenes/eliminar.png" Height="10"/>
+                            <TextBlock>Eliminar</TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>
