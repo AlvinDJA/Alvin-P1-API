@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Alvin_P1_API.UI.Registros"
         mc:Ignorable="d"
-        Title="Registro de Cuidades" Height="221" Width="438">
+        Title="Registro de Cuidades" Height="243" Width="404">
     <Grid>
         <StackPanel Margin="20,0,0,131">
-            <Label Content="Ciduad id" Height="30" />
+            <Label Content="Ciduad id:" Height="30" />
             <StackPanel Height="19" Orientation="Horizontal" Width="397">
                 <TextBox HorizontalAlignment="Left" x:Name="ciudadIdTextBox"  Width="120" Text="{Binding ciudadId}"/>
                 <Button x:Name="BuscarButton" FlowDirection="LeftToRight" Click="BuscarButton_Click">
@@ -21,12 +21,12 @@
 
         </StackPanel>
         <StackPanel Margin="20,50,0,63">
-            <Label Content="Nombre" Height="30"/>
+            <Label Content="Nombre:" Height="30"/>
             <TextBox HorizontalAlignment="Left" x:Name="nombreTextBox"  Width="120" Text="{Binding nombre}"/>
         </StackPanel>
-        <StackPanel Margin="0,0,-165,-38">
-            <StackPanel Margin="20,80,230,138" Height="91" Width="370">
-                <StackPanel Orientation="Horizontal" Margin="0,40,0,0" Height="43">
+        <StackPanel Margin="-13,0,-181,-16">
+            <StackPanel Margin="20,80,230,138" Height="91" Width="450">
+                <StackPanel Orientation="Horizontal" Margin="0,40,0,0" Height="43" Width="491">
                     <Button x:Name="NuevoButton" FlowDirection="LeftToRight" Margin="10,0,0,0" Width="100"  Click="NuevoButton_Click">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="/Imagenes/nuevo.png" Height="10"/>
