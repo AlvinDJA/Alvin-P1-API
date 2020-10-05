@@ -4,3 +4,9 @@ bin/Debug/*.*
 obj/*.*
 obj/Debug/*.*
 
+obj/Release/netcoreapp3.1/*.* 
+
+bin
+
+obj
+
