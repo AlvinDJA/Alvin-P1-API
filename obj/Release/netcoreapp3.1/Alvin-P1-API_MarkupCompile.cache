@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1
 C:\Users\Lenovo\source\repos\Alvin-P1-API\App.xaml
-2-76667953
+31693835869
 4-217281458
-10436687653
+11984580640
 2161636875608
-MainWindow.xaml;UI\Registros\rCiudades.xaml;
+MainWindow.xaml;UI\Consultas\cCiudades.xaml;UI\Registros\rCiudades.xaml;
 
 True
 

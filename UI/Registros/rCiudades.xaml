@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Alvin_P1_API.UI.Registros"
         mc:Ignorable="d"
-        Title="Registro de Cuidades" Height="243" Width="404">
+        Title="Registro de Ciudades" Height="243" Width="404">
     <Grid>
         <StackPanel Margin="20,0,0,131">
-            <Label Content="Ciduad id:" Height="30" />
+            <Label Content="Ciudad id:" Height="30" />
             <StackPanel Height="19" Orientation="Horizontal" Width="397">
                 <TextBox HorizontalAlignment="Left" x:Name="ciudadIdTextBox"  Width="120" Text="{Binding ciudadId}"/>
                 <Button x:Name="BuscarButton" FlowDirection="LeftToRight" Click="BuscarButton_Click">
