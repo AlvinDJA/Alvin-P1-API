@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Alvin_P1_API.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20201005230043_Initial")]
+    [Migration("20201006004108_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

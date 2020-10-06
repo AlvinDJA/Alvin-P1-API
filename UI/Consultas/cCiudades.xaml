@@ -34,8 +34,6 @@
 
                 <DataGrid x:Name="CiudadDataGrid" Height="221" Width="527">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Ciudad" Binding="{Binding ciudadId}"/>
-                        <DataGridTextColumn Header="Nombres" Binding="{Binding Nombre}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </StackPanel>

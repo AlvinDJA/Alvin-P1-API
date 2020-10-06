@@ -118,6 +118,61 @@ namespace Alvin_P1_API.BLL
             }
             return encontrado;
         }
+        public static bool Existe(string nombre)
+        {
+            Contexto contexto = new Contexto();
+            bool encontrado = false;
+            try
+            {
+                encontrado = contexto.Ciudades
+                    .Any(e => e.nombre == nombre);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                contexto.Dispose();
+            }
+            return encontrado;
+        }
+        public static List<Ciudades> GetList(Expression<Func<Ciudades, bool>> criterio)
+        {
+            List<Ciudades> lista = new List<Ciudades>();
+            Contexto contexto = new Contexto();
+            try
+            {
+                lista = contexto.Ciudades.Where(criterio).ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                contexto.Dispose();
+            }
+            return lista;
+        }
+        public static List<Ciudades> GetList()
+        {
+            List<Ciudades> lista = new List<Ciudades>();
+            Contexto contexto = new Contexto();
+            try
+            {
+                lista = contexto.Ciudades.ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                contexto.Dispose();
+            }
+            return lista;
+        }
 
     }
 }

@@ -1,6 +1,8 @@
 ﻿using Alvin_P1_API.Entidades;
 using System.Windows;
 using Alvin_P1_API.UI.Registros;
+using Alvin_P1_API.UI.Consultas;
+
 namespace Alvin_P1_API
 {
     /// <summary>
@@ -17,6 +19,11 @@ namespace Alvin_P1_API
         {
             new rCiudades().Show();
         }
+         private void cCiudades_Click(object sender, RoutedEventArgs e)
+        {
+            new cCiudades().Show();
+        }
+        
 
     }
 }

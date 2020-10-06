@@ -40,7 +40,13 @@ namespace Alvin_P1_API.UI.Registros
         private bool Validar()
         {
             bool esValido = true;
-            if (nombreTextBox.Text.Length == 0)
+            if (CiudadesBLL.Existe(nombreTextBox.Text))
+            {
+                esValido = false;
+                MessageBox.Show("Ha ocurrido un error, no puede repetir el nombre", "Error",
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+;            if (nombreTextBox.Text.Length == 0)
             {
                 esValido = false;
                 MessageBox.Show("Ha ocurrido un error, debe insertar un nombre", "Error",

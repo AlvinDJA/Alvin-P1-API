@@ -17,6 +17,7 @@
 
                 <Menu Height="18">
                     <MenuItem Header="Consultas">
+                        <MenuItem x:Name="cCiudades" Header="Consulta de Ciudades" Click="cCiudades_Click"/>
                     </MenuItem>
                 </Menu>
 
